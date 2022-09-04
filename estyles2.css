@@ -1,0 +1,126 @@
+.contact_form h2 {
+	margin-top:3px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	float:left;
+	
+   
+    color: #FFF;
+    display: block;
+    font-family: batman;
+    font-size: 26px;
+    padding: 5px;
+    text-shadow: 1px 0.5px 0.5px #003;
+    width: 345px;
+	text-align:left;
+	
+	-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+	
+}
+/*--- estilos para los ul y li del formulario ---*/
+.contact_form ul {
+    width:400px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.contact_form li{
+	padding:12px; 
+	
+	position:relative;
+} 
+.contact_form label {
+    color: #F90;
+    display: inline-block;
+    float: left;
+    font-family: tallfilm;
+    font-size: 27px;
+
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.contact_form textarea {
+	padding:8px; 
+	width:319px;
+}
+.contact_form button {
+	margin-left:5px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+
+.contact_form input, .contact_form textarea { 
+	border:1px solid #999;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:3px;
+	color: #888;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+	 
+	background: #fff; 
+	border:1px solid #CCC; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:50px;
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #9F3;
+	border-color: #28921f;
+	
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Estilos del boton de Envio === */
+
+button.submit {
+    padding: 9px 30px;
+   font-family: batman;
+   font-size:12px;
+   margin-left:20px;
+   color: #FFF;
+
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+  
+   border: 1px solid #666;
+   border-radius: 3px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+	opacity:.55;
+	cursor: pointer; 
+	color: #fff;
+}
+button.submit:active {
+	border: 1px solid #222;
+	box-shadow: 0 0 10px 5px #444 inset; 
+}
+@font-face { font-family: 'batman';  src:url('batman.otf'); }
+
+@font-face { font-family: 'tallfilm';  src:url('tallfilm.otf'); }

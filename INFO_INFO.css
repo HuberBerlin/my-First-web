@@ -1,0 +1,493 @@
+@charset "UTF-8";
+
+
+
+
+a:link {
+	text-decoration: none;
+	color: #CCC;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+
+
+
+
+#red {margin-bottom:10px;
+height:60px;}
+
+
+
+#logo {
+	margin-left: 5%;
+	position: absolute;
+	float: left;
+	z-index: 1000;
+}
+#redes {
+	right:47px;
+	height: 32px;
+	width: 128px;
+	margin-top: 20px;
+	z-index:1900;
+	position:absolute;
+}
+
+#trike {
+	background-image: url(images/vector.png);
+	background-repeat: no-repeat;
+	height: 68px;
+	width: 137px;
+	z-index: 1000;
+	position: absolute;
+}
+
+
+body {
+	margin:0px;
+}
+#google{
+	width:290px;
+	height:290px;
+	margin-top:12px;
+	margin-left:73px;
+	text-align:center;
+	
+	
+	}
+
+#contenedor{
+	padding-top:347px;
+	padding-left:30px;
+	position:absolute;
+	background-image:  url(images/FLIPfondo.png);
+	
+		
+	height:388px;
+	width:899px;
+	top:-11px;
+	margin-left:22%;
+	float:left;
+	z-index: 1800;
+	
+	background-repeat: no-repeat;
+*/
+
+
+	
+	-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+	
+	}
+	
+
+	
+	.bienvenidos{
+		width:200px;
+		height:20px;
+		float:right;
+	margin-top:18px;
+	margin-right:80px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #000;}
+	
+	
+	
+
+/*FLIP mapa /////////////////////////*/
+
+
+	.flipper{
+		float:right;
+		width:330px;
+		height:274px;
+		z-index: 2000;
+		
+		 }
+		 
+		 
+	.flip-container, .front, .back{
+		float:right;
+		width:330px;
+		height:274px;
+		
+		margin-top:0px;
+		 margin-right:163px;
+		 }
+	
+	
+
+
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+.front {
+	background:  url(images/mapaSOLO.jpg) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background:  url(images/FLIPmapa.jpg) 0 0 no-repeat;
+}
+
+
+
+/*FLIP mapa fin/////////////////////////*/	
+	
+	
+	
+@font-face { font-family: 'tallfilm';  src:url('tallfilm.otf'); }
+
+
+
+
+/*animacion////////////////*/
+*{ margin: 0; padding: 0;}
+
+body {
+	/*To hide the horizontal scroller appearing during the animation*/
+	overflow: hidden;
+}
+
+
+	
+#clouds{
+	
+		
+	width:100%;
+	height:100%;
+	position:absolute;
+
+	padding: 100px 0;
+	   
+	  
+	   /*
+	background: -webkit-linear-gradient( #C30, #FFC);
+background: -moz-linear-gradient(orange, #FFC);
+background: -o-linear-gradient(orange, #FFC);
+background: linear-gradient(orange, #FFC);
+*/
+
+
+background: 
+-moz-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40%),
+-moz-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-moz-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88% ),
+-moz-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-moz-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+
+
+	#0CF;
+	background: 
+-webkit-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40%),
+-webkit-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-webkit-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88% ),
+-webkit-radial-gradient( 49% 90%, circle, #2E9AFE 25%, transparent 88% ),	
+-webkit-radial-gradient( 49% 90%, circle, #0174DF 20%, transparent 150% ),
+
+	#2ECCFA;
+	background: 
+-o-linear-gradient( bottom, white , transparent 0.8% ),
+-o-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-o-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-o-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-o-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-o-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+	background: 
+-khtml-linear-gradient( bottom, white , transparent 0.8% ),
+-khtml-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-khtml-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-khtml-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-khtml-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-khtml-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+	background: 
+-ms-linear-gradient( bottom, white , transparent 0.8% ),
+-ms-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-ms-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-ms-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-ms-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-ms-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+	background: 
+-linear-gradient( bottom, white , transparent 0.8% ),
+-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;*/
+
+
+	
+}
+
+
+#botones{
+	color: #FFC;
+	position:absolute;
+	width:399px;
+	height:255px;
+	left:0px;
+	bottom: 28px;
+	z-index:2000;
+}
+#botom {
+	bottom:0px;
+	position: absolute;
+	padding: 0px;
+	height: 45px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;	
+}
+#PiramideINICIO {
+	height: 31px;
+	width: 32px;
+	position: absolute;
+	right: 5%;
+	bottom: 44px;
+	cursor: all-scroll;
+}
+
+#reloj  {
+	z-index:1900;
+	left:10px;
+position: absolute;
+bottom: 317px; 
+clear: both; }
+
+
+canvas { position: absolute; top: 0; }
+
+
+
+#pin {
+	background-repeat:no-repeat;
+	background-image:url(images/qr.png);
+	position: absolute;
+	z-index:1500;
+	right:-15px;
+	width:88px;
+	height:180px;
+	top:35%;
+	transition:width 1s;
+	-moz-transition:width 1s; /* Firefox 4 */
+	-webkit-transition:width 1s; /* Safari and Chrome */
+	-o-transition:width 1s; /* Opera */
+	-moz-transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	cursor: move;
+}
+
+#pin:hover
+{
+	width:220px;
+}
+
+.contact_form h2 {
+	margin-top:3px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	float:left;
+	
+   
+    color: #FFF;
+    display: block;
+    font-family: batman;
+    font-size: 26px;
+    padding: 5px;
+    text-shadow: 1px 0.5px 0.5px #003;
+    width: 345px;
+	text-align:left;
+	
+	-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+	
+}
+/*--- estilos para los ul y li del formulario ---*/
+.contact_form ul {
+    width:400px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.contact_form li{
+	padding:12px; 
+	
+	position:relative;
+} 
+.contact_form label {
+    color: #F90;
+    display: inline-block;
+    float: left;
+    font-family: tallfilm;
+    font-size: 27px;
+
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.contact_form textarea {
+	padding:8px; 
+	width:319px;
+}
+.contact_form button {
+	margin-left:5px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+
+.contact_form input, .contact_form textarea { 
+	border:1px solid #999;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:3px;
+	color: #888;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+	 
+	background: #fff; 
+	border:1px solid #CCC; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:50px;
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #9F3;
+	border-color: #28921f;
+	
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+
+
+
+
+.mensaje {height: 190px;
+width:400px;
+font-family:tallfilm;
+color:#CCC;
+font-size:30px;
+text-align:center;
+padding-top:160px;}
+
+/* === boton de Envio === */
+
+.but {
+	text-align:center;
+	width:330px;
+    padding: 9px 30px;
+   font-family: batman;
+   font-size:12px;
+   margin-left:5px;
+   color: #FFF;
+
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+  
+   border: 1px solid #666;
+   border-radius: 3px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.but:hover {
+	opacity:.55;
+	cursor: pointer; 
+	color: #fff;
+}
+.but:active {
+	border: 1px solid #222;
+	box-shadow: 0 0 10px 5px #444 inset; 
+}
+@font-face { font-family: 'batman';  src:url('batman.otf'); }
+
+@font-face { font-family: 'tallfilm';  src:url('tallfilm.otf'); }

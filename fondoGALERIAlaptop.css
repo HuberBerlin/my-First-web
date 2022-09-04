@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/*bombilla roja /////*/
+
+
+
+#contenedor{
+	z-index:10;
+	position:absolute;
+	height:782px;
+	width:1047px;
+	margin-top:28px;
+	margin-left:22%;
+	float:left;
+	background-image: url(images/paneCENTRALlaptop.png);
+	background-repeat:no-repeat;
+*/
+	/*-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;*/
+	}
+
+
+#reproducir{
+	position:absolute;
+	margin-top:10px;
+	z-index:1500;
+	height:50px;
+	
+	margin-left:100px;
+}
+
+
+
+
+/*/////////////////////////////*/
+
+#red {margin-bottom:10px;
+height:60px;}
+
+
+
+
+
+
+
+#logo {
+	margin-left: 5%;
+	position: absolute;
+	float: left;
+	z-index: 9999;
+}
+#redes {
+	right:35px;
+	height: 32px;
+	width: 128px;
+	margin-top: 20px;
+	z-index:9999;
+	position:absolute;
+}
+
+
+body {
+	background-image:url(images/relleno2.jpg);
+	background-repeat:repeat-x;
+	margin:0px;
+}
+
+
+@font-face { font-family: 'tallfilm';  src:url('tallfilm.otf'); }
+
+
+
+
+/*animacion////////////////*/
+*{ margin: 0; padding: 0;}
+
+body {
+	/*To hide the horizontal scroller appearing during the animation*/
+	overflow: hidden;
+}
+
+
+	
+#clouds{
+	
+		
+	width:100%;
+	height:100%;
+	position:absolute;
+
+	padding: 100px 0;
+	
+	/* naranja
+	background:-moz-linear-gradient( bottom, white , transparent 0.8% ),
+	background: -webkit-linear-gradient(orange, white);
+background: -moz-linear-gradient(orange, white);
+background: -o-linear-gradient(orange, white);
+background: linear-gradient(orange, white);*/
+
+background: 
+-moz-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40%),
+-moz-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-moz-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88% ),
+-moz-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-moz-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+
+
+	#0CF;
+	background: 
+-webkit-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40%),
+-webkit-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-webkit-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88% ),
+-webkit-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-webkit-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+	background: 
+-o-linear-gradient( bottom, white , transparent 0.8% ),
+-o-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-o-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-o-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-o-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-o-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+	background: 
+-khtml-linear-gradient( bottom, white , transparent 0.8% ),
+-khtml-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-khtml-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-khtml-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-khtml-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-khtml-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+	background: 
+-ms-linear-gradient( bottom, white , transparent 0.8% ),
+-ms-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-ms-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-ms-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-ms-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-ms-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;
+	background: 
+-linear-gradient( bottom, white , transparent 0.8% ),
+-radial-gradient( 12% -35%, circle, #56AAE9 2%, transparent 40% ),
+-radial-gradient( 49% 60%, circle, #0E77C0 -1%, transparent 76% ),
+-radial-gradient( 49% 90%, circle, #1e5073 15%, transparent 88%  ),
+-radial-gradient( 49% 90%, circle, #10476d 25%, transparent 88% ),	
+-radial-gradient( 49% 90%, circle, #05314e 20%, transparent 150% ),
+
+	black;*/
+
+	
+}
+
+
+
+#botones{
+	color: #FFC;
+	position:absolute;
+	width:399px;
+	height:255px;
+	left:0px;
+	bottom: 28px;
+}
+#botom {
+	bottom:0px;
+	position: absolute;
+	padding: 0px;
+	height: 45px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	z-index:9999;
+}
+#PiramideINICIO {
+	height: 31px;
+	width: 32px;
+	position: absolute;
+	right: 5%;
+	bottom: 44px;
+	z-index:9999;
+}
+
+#reloj  {
+	z-index:1000;
+	left:10px;
+position: absolute;
+bottom: 317px; 
+clear: both; }
+
+
+canvas { position: absolute; top: 0; }
+
+
+
+#pin {
+	background-repeat:no-repeat;
+	background-image:url(images/qr.png);
+	position: absolute;
+	z-index:1500;
+	right:-15px;
+	width:88px;
+	height:180px;
+	top:35%;
+	transition:width 1s;
+	-moz-transition:width 1s; /* Firefox 4 */
+	-webkit-transition:width 1s; /* Safari and Chrome */
+	-o-transition:width 1s; /* Opera */
+	-moz-transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	cursor: move;
+}
+
+#pin:hover
+{
+	width:220px;
+}
+
+
+
+
+
+@font-face { font-family: 'batman';  src:url('batman.otf'); }
+
+@font-face { font-family: 'tallfilm';  src:url('tallfilm.otf'); }
+
+
+

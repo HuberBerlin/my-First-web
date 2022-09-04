@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+
+#nube1 {
+	background-image: url(images/nube01.png);
+	background-repeat: no-repeat;
+	height: 157px;
+	width: 251px;
+	z-index: 1000;
+	position: absolute;
+
+	left: 751px; top: 20px;
+	
+	-webkit-animation: nube1 30s linear infinite;
+	-moz-animation: nube1 30s linear infinite;
+	-o-animation: nube1 30s linear infinite;
+}
+
+@-webkit-keyframes nube1 {
+	0% {margin-left: 2000px;}
+	100% {margin-left: -2000px;}
+}
+@-moz-keyframes nube1 {
+	0% {margin-left: 2000px;}
+	100% {margin-left: -2000px;}
+}
+@-o-keyframes nube1 {
+	0% {margin-;left: 2000px;}
+	100% {margin-left: -2000px;}
+}
+
+
+
+
+
+#nube2 {
+	background-image:  url(images/nube02.png);
+	background-repeat: no-repeat;
+	height: 41px;
+	width: 66px;
+	z-index: 1000;
+	position: absolute;
+
+	right: 751px; top: 90px;
+	
+	-webkit-animation: nube2 24s linear infinite;
+	-moz-animation: nube2 24s linear infinite;
+	-o-animation: nube2 24s linear infinite;
+}
+
+@-webkit-keyframes nube2 {
+	0% {margin-right: 2000px;}
+	100% {margin-right: -2000px;}
+}
+@-moz-keyframes nube2 {
+	0% {margin-right: 2000px;}
+	100% {margin-right: -2000px;}
+}
+@-o-keyframes nube2 {
+	0% {margin-right: 2000px;}
+	100% {margin-right: -2000px;}
+}
+
+
+
+#nube3 {
+	background-image: url(images/nube03.png);
+	background-repeat: no-repeat;
+	height: 128px;
+	width: 202px;
+	z-index: 1000;
+	position: absolute;
+
+	right: 751px; top: 180px;
+	
+	-webkit-animation: nube3 19s linear infinite;
+	-moz-animation: nube3 19s linear infinite;
+	-o-animation: nube3 19s linear infinite;
+}
+
+@-webkit-keyframes nube3 {
+	0% {margin-right: 1000px;}
+	100% {margin-right: -1000px;}
+}
+@-moz-keyframes nube3 {
+	0% {margin-right: 1000px;}
+	100% {margin-right: -1000px;}
+}
+@-o-keyframes nube3 {
+	0% {margin-right: 1000px;}
+	100% {margin-right: -1000px;}
+}
+
+
+
+
+
+
+#nube4 {
+	background-image: url(images/nube04.png);
+	background-repeat: no-repeat;
+	height: 76px;
+	width: 121px;
+	z-index: 1000;
+	position: absolute;
+
+	right: 751px; top: 90px;
+	
+	-webkit-animation: nube4 19s linear infinite;
+	-moz-animation: nube4 19s linear infinite;
+	-o-animation: nube4 19s linear infinite;
+}
+
+@-webkit-keyframes nube4 {
+	0% {margin-right: 1000px;}
+	100% {margin-right: -1000px;}
+}
+@-moz-keyframes nube4 {
+	0% {margin-right: 1000px;}
+	100% {margin-right: -1000px;}
+}
+@-o-keyframes nube4 {
+	0% {margin-right: 1000px;}
+	100% {margin-right: -1000px;}
+}
+
+
+
+
+
+
+
+
+

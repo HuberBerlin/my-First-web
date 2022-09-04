@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#btTOP {
+	position: absolute;
+	display: block;
+	
+	top:15%;
+	z-index:3300;
+}

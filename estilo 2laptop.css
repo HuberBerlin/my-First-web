@@ -1,0 +1,133 @@
+#amarilloLINEA{
+				background: -webkit-linear-gradient(top,black 111%);
+		}
+		
+		
+
+		
+#wraper{
+	height: 1200px;
+	width: 1000px;
+}
+
+
+#logo{
+	margin-left:110px;
+	left:10px;
+}
+
+
+
+
+.arrow{
+	opacity:20.2;
+}
+
+.dirText{
+	color:white;
+	font-size:15px;
+	margin-top:17px;
+
+	opacity:0.0;
+	font-family:'batman';
+}
+
+.control{
+	position:fixed;
+	width:190px;
+	cursor:pointer;
+	
+}
+
+#servicios{}
+
+
+#rightControl{
+	right:0px;
+	top:43%;
+}
+
+#leftControl{
+	left:0px;
+	top:43%;
+}
+
+
+
+.center{
+	text-align:center;
+	}
+
+
+@font-face { font-family: 'blue';  src:url('blue.otf'); }
+
+.Handwrite{font-family:'blue'; }
+
+.parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+}
+.parallax-layer {
+    position: absolute;
+}.background #fondo {
+}
+.background #fondo {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+/* barra*/ 
+
+
+#testdiv {
+	padding:5px;
+	width: 591px;
+	position: absolute;
+	z-index: 1;
+	left: 450px;
+	top: 720px;
+	cursor: pointer;
+	background-image: url(file:///Macintosh%20HD/Users/edwinpimentel/Desktop/verguero/web/images/fullBARRA.png);
+	height: 47px;
+	background-repeat: no-repeat;
+	color: #F90;
+}
+#op {
+	float: left;
+	position: static;
+	z-index: 1;
+	background-image: url(file:///Macintosh%20HD/Users/edwinpimentel/Desktop/verguero/web/images/squina.png);
+	height: 100px;
+	width: 100px;
+}
+a {
+	z-index: 10;
+	position: relative;
+}
+.redes {
+	float: right;
+	margin-right: 36px;
+	margin-top: 22px;
+	height: 22px;
+	width: 70px;
+	z-index: 1;
+}
+#Twt {
+	float: left;
+	margin-right:9px;
+}
+#face {
+	float: right;
+}
+#contacto {
+	font-family: geosanslight;
+	;
+	font-size: 26px;
+	color: #999;
+	float: left;
+	margin-top: 100px;
+	margin-left: 40%;
+}

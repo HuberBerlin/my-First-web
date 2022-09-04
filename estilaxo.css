@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:blue;
+	background: #000;
+	font-weight: 100;
+	font-size: 15px;
+	color: #aa3e03;
+	overflow-y: hiden;
+	overflow-x: hidden;
+}
+
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+
+/*///////////////*/
+
+
+#anime {
+	
+	
+	height:82px;
+	z-index: 1000;
+	position: absolute;
+	margin-left:40%;
+	margin-top:12%;
+	width: 416px;
+	
+	
+	
+	 -webkit-animation: imagenAnimacion 30s linear infinite 0s;
+    -moz-animation: imagenAnimacion 30s linear infinite 0s;
+    -o-animation: imagenAnimacion 30s linear infinite 0s;
+    -ms-animation: imagenAnimacion 30s linear infinite 0s;
+    animation: imagenAnimacion 30s linear infinite 0s;
+	
+
+	
+}
+
+
+@font-face { font-family: 'tallfilm';  src:url('tallfilm.otf'); }
+
+@font-face { font-family: 'batman';  src:url('batman.otf'); }
+
+
+
+
+#cielo{
+	margin-top:29px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	
+	width:400px;
+	height:30px;
+	font-family:tallfilm;
+	font-size: 40px;
+	text-align: center;
+	color: #FFF;
+	position:absolute;
+}
+
+
+
+#reflex {/*
+	margin-left:30%;
+	margin-top:4%;*/
+	
+	width:416px;
+	height:72px;
+	background-image:url(images/reflejo.png);
+	position:absolute;
+	animation:mymove 0.01s infinite;
+	animation-direction:alternate;
+	animation-timing-function: ease-in;
+	-moz-animation:mymove 0.01s infinite;
+	-moz-animation-direction:alternate;
+	-moz-animation-timing-function: ease-in;
+	-webkit-animation:mymove 0.01s infinite;
+	-webKit-animation-direction:alternate;
+	-webkit-animation-timing-function: ease-in;
+	-o-animation:mymove 0.01s infinite;
+	-o--animation-direction:alternate;
+	-o-animation-timing-function: ease-in;
+	z-index: 1;
+}
+
+@keyframes mymove
+{
+from {top:0px;}
+to {top:33px;}
+
+
+
+}
+
+@-moz-keyframes mymove 
+{
+from {top:0px;}
+to {top:33px;}
+
+
+}
+
+@-webkit-keyframes mymove 
+{
+from {top:0px;}
+to {top:33px;}
+
+
+}
+
+@-o-keyframes mymove 
+{
+from {top:0px;}
+to {top:33px;}
+
+	
+}
+
+

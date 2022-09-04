@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ventana Shadowbox al cargar página con jQuery</title>
+
+
+<script type="text/javascript" src="shadowbox.js"></script>
+<script type="text/javascript"  src="jquery-1.4.2.min.js"></script>
+<script type="text/javascript"> Shadowbox.init({ language: "es", players:  ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'] }); </script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+	setTimeout(function() {
+	    Shadowbox.open({
+    	    content:    '<div><img src="images/pop-up-inicio.jpg"></div>',
+    	    player:     "html",
+    	    title:      "BIENVENIDO!",
+    	    width:      436,
+    	    height:     371,
+    	});
+	}, 50);
+});
+</script>
+<style type="text/css">
+
+
+
+.ejemplo {
+	float:left;
+	width:100%;
+	
+	padding:0px;
+	margin:0px;
+}
+
+.ejemplo img {
+	float:left;
+	
+
+</style>
+<link href="shadowbox.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+</body>
+</html>

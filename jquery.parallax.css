@@ -1,0 +1,64 @@
+
+#container {
+	width: 50%;
+	margin: 3em auto;
+	font-family: Verdana, Geneva, sans-serif;
+	
+}
+#dwicon {
+	float: left;
+	margin-right: 2em;
+}
+#error {
+	padding-top: .5em;
+}
+#desc {
+}
+
+
+
+.lienzo-vista {
+    position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;
+	
+}
+
+.frame {
+	margin:0;
+	width: 100%;
+      max-width: 2200px;
+      height: 1100px;
+  
+
+	
+   position: relative;     /* relative, absolute, fixed */
+    overflow: hidden;}
+	
+
+.layer {
+    position: absolute;
+}
+
+
+#planeta {
+	float:right;
+	width: 1800px;
+	margin-left: 11;
+	padding-left: 330px;
+	position:absolute;
+	
+}
+
+
+
+#galeria {
+	float:right;
+	width: 1800px;
+	margin-left: 11;
+	padding-left: 330px;
+	position:absolute;
+	
+}
+
+    
+	

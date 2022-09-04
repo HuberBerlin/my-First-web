@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body {
+	background-image: url(images/fondo.jpg);
+	background-repeat: repeat-x;
+	margin:0;
+	overflow: hidden;
+}
+#wrap {
+	height: 800px;
+	width: 800px;
+	margin-top: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 200px;
+}
+
+#logo {
+	float: left;
+	height: 402px;
+	width: 361px;
+	margin-right: 219px;
+	margin-left: 220px;
+	background-image: url(images/loaderLOOO.png);
+	background-repeat: no-repeat;
+	padding-top: 212px;
+	padding-left: 6px;
+}
+
+#anima {
+	width:16px;
+	height:17px;
+	background-image:url(images/loaderCubo.png);
+	position:relative;
+	animation:mymove 1s infinite;
+	animation-direction:alternate;
+
+	-moz-animation:mymove 1s infinite;
+	-moz-animation-direction:alternate;
+	 
+	-webkit-animation:mymove 0.7s infinite;
+	-webKit-animation-direction:alternate; 
+	
+	
+	-o-animation:mymove 1s infinite; 
+	-o--animation-direction:alternate;
+	
+	
+}
+
+@keyframes mymove
+{
+from {left:0px;}
+to {left:333px;}
+}
+
+@-moz-keyframes mymove /*Firefox*/
+{
+from {left:0px;}
+to {left:333px;}
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+from {left:0px;}
+to {left:333px;}
+from {left:0px;}
+}
+
+@-o-keyframes mymove /*Opera*/
+{
+from {left:0px;}
+to {left:333px;}
+from {left:0px;}
+	
+	
+	
+}

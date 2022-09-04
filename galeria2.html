@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Galeria</title>
+
+<link href="stiloP.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript" >
+var txt="::::::::Cargando::::::::";
+var espera=150; //velocidad
+var refresco=null;
+function rotulo_title() {
+document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refresco=setTimeout("rotulo_title()",espera);}
+rotulo_title();
+</SCRIPT>
+
+
+
+
+<script>if (window.screen.width > 1021) {
+   // resolution is below 10 x 7
+   window.location = 'slideshow.html';
+}
+ if (window.screen.width < 1020) {
+   // resolution is below 10 x 7
+   window.location = 'slideshowlaptop.html';
+ }</script>
+
+
+</head>
+
+<body onLoad="redireccionar()">
+
+
+<div id="wrap">
+  <div id="logo">  
+  	<div id="anima"></div>
+  </div>
+  
+</div>
+  
+
+  
+
+
+
+
+</body>
+
+</html>

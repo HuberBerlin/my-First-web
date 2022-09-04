@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#botom {
+	bottom:0px;
+	position: absolute;
+	padding: 0px;
+	height: 45px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;	
+}
+
+
+
+
+#logo {top: 0px;
+position:absolute;
+margin-left: 6%;}
+
+#contenedor {
+	background-size: cover;
+	position:relative;
+	background-image: url(images/superiorD.png);
+	background-repeat: no-repeat;
+	height: 84px;
+	width:100%;
+	top: 0px;
+}
+#redes {
+	float: right;
+	height: 32px;
+	width: 128px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+
+#botones{
+	color: #FFC;
+	position:absolute;
+	width:399px;
+	height:255px;
+	left:0px;
+	bottom: 28px;
+}
+
+#PiramideINICIO {
+	height: 31px;
+	width: 32px;
+	position: absolute;
+	right: 5%;
+	bottom: 44px;
+}
+
+.bienvenido {
+	position:absolute;
+	bottom: 290px;
+	font-family:tallfilm;
+	left:6px;
+	color:#FFC;
+	font-size:24px;
+	
+}

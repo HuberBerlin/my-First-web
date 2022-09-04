@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta name="viewport" 
+      content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Document</title>
+
+
+<script type="text/javascript">
+function RedirectSmartphone(url){
+    if (url && url.length > 0 && IsSmartphone())
+    window.location = url;
+}
+function IsSmartphone(){
+    if (DetectUagent("android")) return true;
+    else if (DetectUagent("iphone")) return true;
+    else if (DetectUagent("ipod")) return true;
+    else if (DetectUagent("symbian")) return true;
+    return false;
+}
+function DetectUagent(name){
+    var uagent = navigator.userAgent.toLowerCase();
+    if (uagent.search(name) > -1)
+    return true;
+    else
+    return false;
+}
+RedirectSmartphone("http://vuelatrike.celular.html");
+</script>   
+
+
+
+<!--
+
+
+<script type="text/javascript">
+function redireccionar() {
+	
+	
+var url300x300 = "http://vuelatrike.com/celular.html"; 
+var url320x480 = "http://vuelatrike.com/celular.html";
+	
+	
+var url800x600 = "http://vuelatrike.com/celular.html"; 
+var url800x600 = "http://vuelatrike.com/celular.html"; 
+var url1024x640 = "http://vuelatrike.com/celular.html";
+
+var url1024x768 = "http://vuelatrike.com/celular.html"; 
+
+
+
+var url1152x864 = "http://vuelatrike.com/test.html"; 
+var url1152x870 = "http://vuelatrike.com/test.html"; 
+
+var url1280x800 = "http://vuelatrike.com/test.html"; 
+
+
+var url1280x960 = "http://vuelatrike.com/test.html"; 
+var url1280x1024 = "http://vuelatrike.com/test.html"; 
+var url1366x768 = "http://vuelatrike.com/infoLaptop.html"; 
+var url1360x768 = "http://vuelatrike.com/infoLaptop.html"; 
+
+
+if ((screen.width == 320) && (screen.height == 480)) window.location.href= url320x480;
+else if ((screen.width == 300) && (screen.height == 300)) window.location.href= url300x300;
+else if ((screen.width == 1024) && (screen.height == 640))window.location.href= url1024x768;else if ((screen.width == 1024) && (screen.height == 768))window.location.href= url1024x768;
+else if ((screen.width == 1152) && (screen.height == 864))window.location.href= url1024x768;else if ((screen.width == 1152) && (screen.height == 870))window.location.href= url1024x768;
+else if ((screen.width == 1280) && (screen.height == 800))window.location.href= url1024x768;else if ((screen.width == 1280) && (screen.height == 960))window.location.href= url1024x768;
+else if ((screen.width == 1280) && (screen.height == 1024))window.location.href= url1024x768;
+
+
+
+else if ((screen.width == 1366) && (screen.height == 768))window.location.href= url1024x768; 
+else if ((screen.width == 1360) && (screen.height == 768))window.location.href= url1024x768; 
+
+else if ((screen.width == 1280) && (screen.height == 800))window.location.href= url1024x768; 
+else if ((screen.width == 1280) && (screen.height == 960))window.location.href= url1024x768; 
+else if ((screen.width == 1280) && (screen.height == 1024))window.location.href= url1024x768; 
+
+else window.location.href= url640x480;
+ 
+
+}
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+body {
+	background-color: #003;
+}
+</style>
+</head>
+
+<body onLoad="redireccionar()">
+ 
+ <h1>
+ 
+00000000</h1>
+
+</body>
+</html>
